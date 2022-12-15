@@ -30,9 +30,15 @@ class DatumTest {
 	}
 
 	@Test
-	void testGueltig() {
+	void testGueltig1() {
 		assertThrows(IllegalArgumentException.class, () -> { // Darüber keine Gedanken machen, überprüft, ob es einen Fehler gibt
 			Datum datum = new Datum(29, 2, 2100); // Soll einen Fehler geben
+		});
+	}
+	@Test
+	void testGueltig2() {
+		assertDoesNotThrow(() -> {
+			Datum datum = new Datum(31, 12, 2022); // Darf keinen Fehler geben
 		});
 	}
 
@@ -43,12 +49,6 @@ class DatumTest {
 		assertFalse(datum1.istGleich(datum2));
 	}
 
-	@Test
-	void testGueltig() {
-		assertDoesNotThrow(() -> {
-			Datum datum = new Datum(31, 12, 2022); // Darf keinen Fehler geben
-		});
-	}
 
 	@Test
 	void testNaechsterTag() {
