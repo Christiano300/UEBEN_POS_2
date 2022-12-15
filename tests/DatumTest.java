@@ -53,6 +53,6 @@ class DatumTest {
 	@Test
 	void testNaechsterTag() {
 		Datum datum = new Datum(31, 12, 2021);
-		assertEquals(new Datum(1, 1, 2022), datum.naechsterTag());
+		assertTrue(datum.naechsterTag().istGleich(new Datum(31, 12, 2021)));
 	}
 }
