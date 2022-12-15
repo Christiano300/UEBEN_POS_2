@@ -22,6 +22,14 @@ class DatumTest {
 	}
 
 	@Test
+	void testGetters() {
+		Datum datum = new Datum(31, 12, 2022);
+		assertEquals(31, datum.getTag());
+		assertEquals(12, datum.getMonat));
+		assertEquals(2022, datum.getJahr());
+	}
+
+	@Test
 	void testGueltig() {
 		assertThrows(IllegalArgumentException.class, () -> { // Darüber keine Gedanken machen, überprüft, ob es einen Fehler gibt
 			Datum datum = new Datum(29, 2, 2100); // Soll einen Fehler geben
@@ -29,9 +37,16 @@ class DatumTest {
 	}
 
 	@Test
+	void testGleich() {
+		Datum datum1 = new Datum(21, 1, 2014);
+		Datum datum2 = new Datum(21, 1, 2015);
+		assertFalse(datum1.istGleich(datum2));
+	}
+
+	@Test
 	void testGueltig() {
 		assertDoesNotThrow(() -> {
-			Datum datum = new Datum(31, 12, 2022); // Soll keinen Fehler geben
+			Datum datum = new Datum(31, 12, 2022); // Darf keinen Fehler geben
 		});
 	}
 
