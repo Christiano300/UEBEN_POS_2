@@ -5,4 +5,4 @@ aus einem Grund Zeilenabstände.
 
 3. Bei Fragen mich anrufen
 
-4. Die Tests sind großteils ohne IntelliJ geschrieben, wenn etwas falsch ist einfach korrigieren und mir sagen.
+4. Die Tests sind großteils ohne IntelliJ geschrieben, wenn etwas falsch ist einfach korrigieren und mir mitteilen.
