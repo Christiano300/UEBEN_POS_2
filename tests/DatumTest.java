@@ -24,7 +24,7 @@ class DatumTest {
 	void testGetters() {
 		Datum datum = new Datum(31, 12, 2022);
 		assertEquals(31, datum.getTag());
-		assertEquals(12, datum.getMonat));
+		assertEquals(12, datum.getMonat());
 		assertEquals(2022, datum.getJahr());
 	}
 
