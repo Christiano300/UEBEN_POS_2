@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -53,6 +52,6 @@ class DatumTest {
 	@Test
 	void testNaechsterTag() {
 		Datum datum = new Datum(31, 12, 2021);
-		assertTrue(datum.naechsterTag().istGleich(new Datum(31, 12, 2021)));
+		assertTrue(datum.naechsterTag().istGleich(new Datum(1, 1, 2022)));
 	}
 }
