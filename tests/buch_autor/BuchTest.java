@@ -10,7 +10,7 @@ class BuchTest {
 	@Test
 	void testLesen1() {
 		Buch buch = new Buch("Harry Potter und der Orden des Phönix", jkrowling, 960);
-		buch.lesen(450);
+		buch.lesen(405);
 		assertEquals(405, buch.getGelesen());
 	}
 
@@ -18,7 +18,7 @@ class BuchTest {
 	void testLesen2() {
 		Buch buch = new Buch("Harry Potter und der Orden des Phönix", jkrowling, 960);
 		buch.lesen(69420187);
-		assertEquals(960, buch.getGelesen(960));
+		assertEquals(960, buch.getGelesen());
 	}
 
 	@Test
