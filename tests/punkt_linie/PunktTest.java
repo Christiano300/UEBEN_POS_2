@@ -1,5 +1,6 @@
 package punkt_linie;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -52,5 +53,11 @@ class PunktTest {
 		assertFalse(punkt1.equals(punkt2));
 		assertTrue(punkt2.equals(punkt2));
 		assertTrue(punkt2.equals(punkt3));
+	}
+
+	@Test
+	@Disabled
+	void testToString() {
+
 	}
 }
