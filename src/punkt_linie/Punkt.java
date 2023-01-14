@@ -21,7 +21,7 @@ public class Punkt {
 
 // 4.	(statische methode) nimmt zwei Punkte und gibt die Distanz zwischen ihnen zurück)
 
-//	toString im Format: (x|y)
+//	toString im Format: (x|y) (Tests selber schreiben)
 
 //	equals: nimmt einen Punkt und gibt zurück, ob er gleich ist
 }
