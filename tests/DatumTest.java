@@ -7,7 +7,7 @@ class DatumTest {
 	void testDefaultKonstruktor() {
 		Datum datum = new Datum();
 		assertEquals(1, datum.getTag());
-		assertEquals(1, datum.getTagMonat());
+		assertEquals(1, datum.getMonat());
 		assertEquals(2000, datum.getJahr());
 	}
 
