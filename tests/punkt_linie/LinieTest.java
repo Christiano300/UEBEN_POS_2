@@ -34,7 +34,7 @@ class LinieTest {
 
 	@Test
 	void testLength() {
-		Linie linie = new Linie(5, 3, -4, 8);
+		Linie linie = new Linie(3, 5, -4, 8);
 		assertEquals(7.61577310, linie.getLength(), 0.001);
 	}
 
@@ -44,13 +44,13 @@ class LinieTest {
 		Linie linie2 = new Linie(new Punkt(-3, -5), new Punkt(2, -2));
 		Linie linie3 = new Linie(new Punkt(-3, -5), new Punkt(2, -2));
 		assertFalse(linie1.equals(linie2));
-		assertFalse(linie2.equals(linie3));
-		assertFalse(linie3.equals(linie2));
-		assertFalse(linie2.equals(linie2));
+		assertTrue(linie2.equals(linie3));
+		assertTrue(linie3.equals(linie2));
+		assertTrue(linie2.equals(linie2));
 	}
 
 	@Test
-	@Disabled
+	@Disabled // Entfernen
 	void testToString() {
 
 	}
