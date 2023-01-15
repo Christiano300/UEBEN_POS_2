@@ -10,7 +10,7 @@ public class Autor {
 
 //	Sinnvolle Zugriffsmethoden (keine Setter)
 
-//	Methode altern, macht die Person um ein Jahr älter.
+//	Methode altern, macht die Person um ein Jahr älter und gibt das neue Alter zurück.
 
 //	Methode nameAendern(String vorname, String nachname), ändert den Namen der Person.
 
