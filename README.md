@@ -7,3 +7,4 @@ aus einem Grund Zeilenabstände.
 4. Bei Fragen mich anrufen oder anschreiben
 
 5. Die Tests sind großteils ohne IntelliJ geschrieben, wenn etwas falsch ist einfach korrigieren und mir mitteilen.
+6. Das hier sind die Lösungen, einfach abzuschreiben bringt wenig bis gar nichts, auch wenn ihr es versteht. Beim Test müsst ihr das selber schreiben, das ist etwas anderes
