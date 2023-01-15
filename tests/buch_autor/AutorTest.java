@@ -19,6 +19,13 @@ class AutorTest {
 		Buch buch1 = autor.schreiben("David Copperfield", 640);
 		assertTrue(buch.istGleich(buch1));
 	}
+	
+	@Test
+	void testAltern() {
+		Autor autor = new Autor("Charles", "Dickens", 210);
+		assertEquals(211, autor.altern());
+		assertEquals(211, autor.getAlter());
+	}
 
 	@Test
 	void testNameAendern() {
