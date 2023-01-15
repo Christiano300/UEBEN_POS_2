@@ -13,7 +13,7 @@ public class Buch {
 
 //	Methode schonGelesen, gibt zurück, ob das Buch schon gelesen wurde.
 
-//	Methode istGleich, nimmt ein Buch und gibt zurück, ob es gleich ist. (Autoren mit == vergleichen)
+//	Methode istGleich, nimmt ein Buch und gibt zurück, ob es gleich ist. (Autoren mit == vergleichen), schon gelesene Seiten ignorieren
 
-// toString (Test selber schreiben)
+// toString (Eigenes Format, Test selber schreiben)
 }
