@@ -9,7 +9,7 @@ public class Linie {
 
 //	getLength: gibt die Länge der Linie zurück
 
-//	equals: nimmt eine andere Linie und gibt zurück, ob sie gleich sind (Strg + O)
-
+//	equals: nimmt eine andere Linie und gibt zurück, ob sie gleich sind
+  
 //	toString: eigenes Format, test selber schreiben
 }
