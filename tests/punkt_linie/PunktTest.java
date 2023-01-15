@@ -56,7 +56,7 @@ class PunktTest {
 	}
 
 	@Test
-	@Disabled
+	@Disabled // Entfernen
 	void testToString() {
 
 	}
