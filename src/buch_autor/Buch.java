@@ -11,7 +11,7 @@ public class Buch {
 //	Methode lesen(int seiten), diese Anzahl an Seiten wird gelesen, wenn es über die Anzahl der Seiten hinausgeht,
 //	wird gelesen zu den Seiten. z.B.: 5 Seiten -> lesen(10) -> 5 Seiten gelesen
 
-//	Methode schonGelesen, gibt zurück, ob da Buch schon gelesen wurde.
+//	Methode schonGelesen, gibt zurück, ob das Buch schon gelesen wurde.
 
 //	Methode istGleich, nimmt ein Buch und gibt zurück, ob es gleich ist. (Autoren mit == vergleichen)
 
