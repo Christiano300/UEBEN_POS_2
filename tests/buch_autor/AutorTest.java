@@ -21,6 +21,13 @@ class AutorTest {
 	}
 
 	@Test
+	void testAltern() {
+		Autor autor = new Autor("Charles", "Dickens", 210);
+		assertEquals(211, autor.altern());
+		assertEquals(211, autor.getAlter());
+	}
+
+	@Test
 	void testNameAendern() {
 		Autor autor = new Autor("Charles", "Dickens", 210);
 		autor.nameAendern("Mark", "Twain");

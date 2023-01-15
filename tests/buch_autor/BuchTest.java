@@ -33,4 +33,10 @@ class BuchTest {
 		Buch buch = new Buch("Harry Potter und der Orden des Phönix", jkrowling, 960);
 		assertEquals("Rowling", buch.getAutor().getNachname());
 	}
+
+	@Test
+	void testToString() {
+		Buch buch = new Buch("Harry Potter und der Orden des Phönix", jkrowling, 960);
+		assertEquals("Buch[titel=\"Harry Potter und der Orden des Phönix\", autor=Joanne K. Rowling, seiten=960]", buch.toString());
+	}
 }

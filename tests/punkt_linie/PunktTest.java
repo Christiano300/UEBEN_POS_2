@@ -56,8 +56,8 @@ class PunktTest {
 	}
 
 	@Test
-	@Disabled
 	void testToString() {
-
+		Punkt punkt = new Punkt(7, -3);
+		assertEquals("(7|-3)", punkt.toString());
 	}
 }
